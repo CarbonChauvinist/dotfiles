@@ -153,6 +153,7 @@ alias ptpb='curl -F c=@- https://ptpb.pw'
 #alias wp='bingme && ngme'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias graph='git log --all --decorate --oneline --graph'
+alias dotfilesgraph='dotfiles log --all --decorate --oneline --graph'
 
 PS1='[\u@\h \W]\$ '
 export PYTHONPATH=/usr/lib/python3.7/site-packages/powerline/bindings/bash
