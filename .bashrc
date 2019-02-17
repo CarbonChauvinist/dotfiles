@@ -151,7 +151,7 @@ alias st='st -f "FantasqueSansMono Nerd Font Mono:size=12" -g 140x40 -e tmux a'
 alias wo='pacman -Qo "$1"'
 alias ptpb='curl -F c=@- https://ptpb.pw'
 #alias wp='bingme && ngme'
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME --no-pager'
 alias graph='git log --all --decorate --oneline --graph'
 alias dotfilesgraph='dotfiles log --all --decorate --oneline --graph'
 
