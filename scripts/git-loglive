@@ -1,4 +1,6 @@
 #!/bin/bash
+#https://gist.github.com/tlberglund/3714970
+#Is your log longer than the terminal window? Sometimes I'll run it with a commit limit (`git loglive -15`) to help things fit.
 
 while :
 do
