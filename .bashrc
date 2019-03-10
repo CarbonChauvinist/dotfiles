@@ -155,6 +155,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME --no-p
 alias graph='git log --all --decorate --oneline --graph'
 alias dotfilesgraph='dotfiles log --all --decorate --oneline --graph'
 alias sprunge='curl -F '\''sprunge=<-'\'' http://sprunge.us'
+alias 0x0='curl -F'file=@-' http://0x0.st'
 
 PS1='[\u@\h \W]\$ '
 export PYTHONPATH=/usr/lib/python3.7/site-packages/powerline/bindings/bash
