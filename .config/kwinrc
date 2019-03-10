@@ -16,6 +16,14 @@ Id_1=34f98d12-0ed5-40e7-a1ce-363f175f9cf5
 Number=1
 Rows=1
 
+[Effect-CoverSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[Effect-FlipSwitch]
+TabBox=false
+TabBoxAlternative=false
+
 [Effect-PresentWindows]
 LeftButtonDesktop=3
 
@@ -43,6 +51,7 @@ Active=true
 [Plugins]
 cubeslideEnabled=false
 desktopchangeosdEnabled=false
+highlightwindowEnabled=true
 kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_windowapertureEnabled=false
 slideEnabled=true
@@ -53,9 +62,30 @@ PopupHideDelay=1000
 TextOnly=false
 
 [TabBox]
+ActivitiesMode=1
+ApplicationsMode=0
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
+DesktopMode=1
+HighlightWindows=true
+LayoutName=small_icons
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=1
+ShowTabBox=true
+SwitchingMode=0
+
+[TabBoxAlternative]
+ActivitiesMode=1
+ApplicationsMode=0
+DesktopMode=1
+HighlightWindows=true
 LayoutName=org.kde.breeze.desktop
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
 
 [Windows]
 ActiveMouseScreen=false
@@ -91,3 +121,4 @@ ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.breeze
+theme=
